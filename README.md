@@ -64,7 +64,7 @@ data_downstream/
 
 ## Pretraining
 
-Run self-supervised pretraining:
+Preprocessing and self-supervised pretraining:
 
 ```bash
 python hyspecnet_preprocess.py
