@@ -1,5 +1,5 @@
 # HySens
-PyTorch implementation of "HySens: Sensor-Agnostic Foundation Models for Hyperspectral Data (IEEE TGRS)"
+PyTorch implementation of ["HySens: Sensor-Agnostic Foundation Models for Hyperspectral Data (IEEE TGRS)"](https://ieeexplore.ieee.org/abstract/document/11514078/)
 
 ## Dataset Preparation
 
