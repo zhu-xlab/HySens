@@ -1,6 +1,42 @@
 # HySens
 PyTorch implementation of "HySens: Sensor-Agnostic Foundation Models for Hyperspectral Data (IEEE TGRS)"
 
+## Dataset Preparation
+
+### Pretraining Datasets
+
+The pretraining datasets (HySpecNet-11k) used in this work can be downloaded from the following sources:
+https://hyspecnet.rsim.berlin/
+
+After downloading, organize the files as follows:
+
+```text
+data_pretrain/
+└── hyspecnet/
+    ├── ENMAP_Scene_1/
+    ├── ENMAP_Scene_2/
+    ├── ENMAP_Scene_3/
+    └── ...
+```
+### Downstream Datasets
+
+The following benchmark datasets are supported:
+
+| Task | Dataset | Download |
+|--------|---------|----------|
+| Classification | Pavia University | https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes |
+| Classification | Indian Pines | https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes |
+| Classification | WHU-Hi-HanChuan | https://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm |
+| Classification | WHU-Hi-HóngHu | https://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm |
+| Change Detection | Hermiston | https://gitlab.citius.gal/HPC4RS/ChangeDetectionDataset/ |
+| Change Detection | Bay Area | https://gitlab.citius.gal/HPC4RS/ChangeDetectionDataset/ |
+| Change Detection | Santa Barbara | https://gitlab.citius.gal/HPC4RS/ChangeDetectionDataset/ |
+| Modalities Fusion | Augsburg | https://github.com/danfenghong/ISPRS_S2FL |
+| Modalities Fusion | Berlin | https://github.com/danfenghong/ISPRS_S2FL |
+| Regression | GLORIA | ... |
+| Regression | KarLy | ... |
+
+
 ## Citation
 If you find this work useful in your research, please cite:
 ```
