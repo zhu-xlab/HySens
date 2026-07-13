@@ -6,6 +6,8 @@ HySens requires Python 3.10 and an NVIDIA GPU. Install the complete environment 
 ```bash
 python -m pip install -r requirements.txt
 ```
+## Pretrained Weights
+The pretrained HySens weights are available on [Hugging Face](https://huggingface.co/xiangyuxyz/HySens/blob/main/hysens_final.pth).
 
 ## Dataset Preparation
 
