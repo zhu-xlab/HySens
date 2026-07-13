@@ -1,6 +1,12 @@
 # HySens
 PyTorch implementation of ["HySens: Sensor-Agnostic Foundation Models for Hyperspectral Data (IEEE TGRS)"](https://ieeexplore.ieee.org/abstract/document/11514078/)
 
+## Environment
+HySens requires Python 3.10 and an NVIDIA GPU. Install the complete environment with one command:
+```bash
+python -m pip install -r requirements.txt
+```
+
 ## Dataset Preparation
 
 ### Pretraining Datasets
